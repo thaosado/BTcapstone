@@ -11,8 +11,8 @@
     padding: 14px 15px;
     font-size: 15px;
     font-weight: 500;
-
 }
+
 .header__top i {
     color: white;
 }
@@ -32,9 +32,80 @@
 .header__top li a:hover {
     color: #ff6e65;
 }
+
+/* HEADER BOT  */
+
 .header__right li a i:hover {
     color: #ff6e65;
 }
 .header__right li a i{
     transition: all .5s;
+}
+.search-right button{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.search-right {
+    padding: 0 10px 0 10px;
+}
+.search-right form{
+    display: flex;
+    align-items: center;
+}
+.input-search input {
+    color: #060606;
+    padding: 10px 35px 10px 14px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #eee;
+}
+.btn i{
+    color: #0d369f;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    overflow: hidden;
+    transform: translateX(-50px);
+}
+
+/* HEADER HOVER  */
+
+.header__bot .navbar-brand{
+    transition: all 0.5s;
+    color: #0d369f;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.header__bot .navbar-brand:hover{
+    color: #ff6e65;
+}
+.nav-item a{
+    font-size: 15px;
+    color: #060606;
+    padding: 0 6px;
+    transition: all.5s;
+    font-weight: 500;
+}
+.nav-item a:hover {
+    color: #ff6e65;
+}
+.dropdown-item:hover {
+    color: #ff6e65;
+    background: none;
+}
+.dropdown-menu a{
+    padding: 5px 25px;
+}
+input{
+    outline: none;
+}
+.seacrh-box button i{
+    transition: all .5s;
+}
+.seacrh-box button:hover i{
+    color: #ff6e65;
+}
+.input-search input{
+    background: transparent;
 }
