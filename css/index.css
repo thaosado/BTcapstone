@@ -26,7 +26,7 @@
 }
 .header__top li a {
     color: white;
-    font-size: 1rem;
+    font-size: 12px;
     transition: all .5s;
 }
 .header__top li a:hover {
@@ -55,13 +55,15 @@
 }
 .input-search input {
     color: #060606;
-    padding: 10px 35px 10px 14px;
+    padding: 10px 30px 10px 14px;
     width: 100%;
     border-radius: 30px;
     border: 2px solid #eee;
+    font-size: 14px;
 }
 .btn i{
     color: #0d369f;
+    font-size: 15px;
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu{
     overflow: hidden;
@@ -108,4 +110,71 @@ input{
 }
 .input-search input{
     background: transparent;
+}
+/* CAROUSEL  */
+#banner__carousel .carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translate(-110% , -50%);
+    max-width: 500px;
+    text-align: left;
+}
+#banner__carousel .carousel-caption h5{
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+.btn-style {
+    padding: 12px 30px;
+    font-weight: 600;
+    color: #060606;
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    transition: all .5s;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all .25s ease-in-out;
+
+}
+img{
+    vertical-align: middle;
+}
+.btn-style i{
+    color: #060606;
+    vertical-align: middle;
+    transition: all .25s ease-in-out;
+}
+.btn-style:hover{
+    background-color: #ff6e65;
+    color: #fff;
+}
+.btn-style:hover i{
+    color: #fff;
+}
+.carousel-item{
+    position: relative;
+    z-index: 0;
+}
+.carousel-item::before{
+    content: "";
+    background: linear-gradient(75deg, rgb(16 16 16 / 34%) 10%, rgb(230 2 100 / 0%));
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#banner__carousel .carousel-indicators li{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+#banner__carousel .carousel-indicators{
+    right: 24px;
+    bottom: 120px;
+    justify-content: end;
+    margin-right: 0;
 }
