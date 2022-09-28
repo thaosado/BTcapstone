@@ -13,16 +13,28 @@
     font-weight: 500;
 
 }
-
+.header__top i {
+    color: white;
+}
 .header__left a{
     text-decoration: none;
-    
+
 }
 .header__right ul {
     list-style: none;
     
 }
-.header__right li a {
+.header__top li a {
     color: white;
     font-size: 1rem;
+    transition: all .5s;
+}
+.header__top li a:hover {
+    color: #ff6e65;
+}
+.header__right li a i:hover {
+    color: #ff6e65;
+}
+.header__right li a i{
+    transition: all .5s;
 }
