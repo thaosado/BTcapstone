@@ -438,3 +438,22 @@ ul {
 .rating .btn:hover{
     color: #0d369f;
 }
+.pick__foot{
+    text-align: center;
+}
+.pick__foot .btn{
+    background-color: #ff6e65;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .3s ease-out;
+    border: none;
+    padding: 14px 30px;
+}
+.pick__foot .btn i{
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.pick__foot .btn:hover{
+    background-color: #0d369f;
+}
