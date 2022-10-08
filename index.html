@@ -36,6 +36,7 @@
   <body id="mybody">
     <!-- HEADER  -->
     <header>
+      <div class="top-header">
       <div
         class="header__top d-flex justify-content-between align-items-center container-fluid"
       >
@@ -65,7 +66,8 @@
           </ul>
         </div>
       </div>
-      <div class="header__bot">
+    </div>
+      <div id="site-header" class="header__bot fixed-top">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg stroke">
             <h1>
@@ -609,13 +611,13 @@
     </section>
     <!-- SERVICES -->
     <section class="services">
-      <div class="container py-5">
-        <div class="services__content">
-          <div class="row services-right-grids pb-5 mb-4">
-            <div class="col-4"> </div>
-            <div class="col-8">
+      <div class="container py-md-5 py-4">
+        <div class="services__content pb-sm-5 mb-sm-4">
+          <div class="row services-right-grids">
+            <div class="col-xl-4"> </div>
+            <div class="col-xl-8">
               <div class="row service__main pb-5">
-                <div class="col-6">
+                <div class="col-md-6">
                   <div class="service__item d-flex align-items-center">
                     <div class="sv__icon">
                       <i class="fa-solid fa-hands-asl-interpreting"></i>
@@ -626,7 +628,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 mt-md-0 mt-4">
                   <div class="service__item d-flex align-items-center">
                     <div class="sv__icon">
                       <i class="fa-solid fa-download"></i>
@@ -637,8 +639,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
-                  <div class="service__item d-flex mt-4 align-items-center">
+                <div class="col-md-6 mt-4 pt-md-2">
+                  <div class="service__item d-flex align-items-center">
                     <div class="sv__icon">
                       <i class="fa-solid fa-headphones"></i>
                     </div>
@@ -648,8 +650,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
-                  <div class="service__item d-flex mt-4 align-items-center">
+                <div class="col-md-6 mt-4 pt-md-2">
+                  <div class="service__item d-flex align-items-center">
                     <div class="sv__icon">
                       <i class="fa-solid fa-circle-play"></i>
                     </div>
@@ -674,23 +676,23 @@
         </div>
         <div class="number__content">
           <div class="row align-items-center">
-            <div class="col">
+            <div class="col-lg-3 col-sm-6">
               <div>
                 <h4 class="counter">6,300</h4>
               <p>LEARNERS & COUNTING</p>
               </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
               <div>
               <h4 class="counter">638</h4>
               <p>TOTAL COURSES</p>
             </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
               <h4 class="counter">7,600</h4>
               <p>SUCCESSFUL STUDENTS</p>
             </div>
-            <div class="col">
+            <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
               <h4 class="counter">36</h4>
               <p>LANGUAGES</p>
             </div>
@@ -705,7 +707,7 @@
           <h3 class="title-main mb-5">Student Community  <span>Feedback</span></h3>
           <div class="row feedback__content">
             <div class="col-lg-4 col-md-6">
-              <div class="feedback__item p-4">
+              <div class="feedback__item">
                 <div class="item__top">
                   <p>
                     <q>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</q>
@@ -722,8 +724,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="feedback__item p-4">
+            <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+              <div class="feedback__item">
                 <div class="item__top">
                   <p>
                     <q>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</q>
@@ -740,8 +742,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="feedback__item p-4">
+            <div class="col-lg-4 col-md-6 mt-lg-0 mt-4">
+              <div class="feedback__item">
                 <div class="item__top">
                   <p>
                     <q>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.</q>
@@ -796,7 +798,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 mt-sm-0 mt-5">
             <div class="intructors__item">
               <div class="item__top">
                 <a href="#">
@@ -823,7 +825,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5">
             <div class="intructors__item">
               <div class="item__top">
                 <a href="#">
@@ -850,7 +852,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5">
             <div class="intructors__item">
               <div class="item__top">
                 <a href="#">
@@ -900,8 +902,110 @@
       </div>
     </section>
     <!-- FOOTER  -->
-    <footer></footer>
+    <footer class="position-relative mt-5 pt-5">
+      <div class="footer-sub">
+        <div class="container">
+          <div class="text-txt">
+            <div class="top-sub">
+              <div class="row align-items-center forms-9">
+                <div class="main-midd col-md-6">
+                  <h4 class="title-head mb-lg-2">Subscribe Us to join our Community</h4>
+                  <p>Newsletter</p>
+                </div>
+                <div class="main-midd-2 col-md-6 mt-md-0 mt-4">
+                  <form action="#url" method="get" class="topsub-form">
+                    <input type="email" class="form-control" name="email" placeholder="Enter your email">
+                    <button class="btn" type="submit">Send</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="bot-sub row">
+              <div class="col-lg-2 col-sm-6 sub-two-right">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                  <li><a href="index.html">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Home</a></li>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    About</a></li>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Courses</a></li>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-sm-6 sub-two-right pl-lg-5 mt-sm-0 mt-4">
+                <h6>HELP & SUPPORT</h6>
+                <ul>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Live Chart</a></li>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Faq</a></li>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Support</a></li>
+                  <li><a href="#">
+                    <i class="fa-solid fa-angles-right"></i>
+                    Terms of Services</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-sm-6 sub-one-left mt-lg-0 mt-sm-5 mt-4">
+                <h6>CONTACT</h6>
+                <div class="href1">
+                  <i class="fa-regular fa-envelope"></i>
+                  <a href="mailto:info@example.com">info@example.com</a>
+                </div>
+                <div class="href2">
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+44-000-888-999">+44-000-888-999</a>
+                </div>
+                <div>
+                  <p>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    London, 235 Terry, 10001
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 sub-one-left ab-right-cont pl-lg-5 mt-lg-0 mt-sm-5 mt-4">
+                <h6>ABOUT</h6>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                <div class="colums-2">
+                  <ul class="social">
+                    <li><a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#linkedfa-inverse"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="#twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#googleplus"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                    <li><a href="#github"><i class="fa-brands fa-github"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="coppyright-footer text-center">
+        <div class="container">
+          <div class="cop-content">
+            <p>
+              @2021 Studious. All rights reserved. Design by W3Layouts
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- BACK TO TOP  -->
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+      <i class="fa-solid fa-arrow-turn-up"></i>
+    </a>
 
+    <script src="./js/util.js"></script>
+    <script src="./js/main-backtotop.js"></script>
     <!-- BS4 -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -930,5 +1034,6 @@
         document.getElementById('mybody').classList.toggle('dark')
       }
     </script>
+  
   </body>
 </html>
