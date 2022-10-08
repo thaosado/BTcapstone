@@ -1,0 +1,138 @@
+
+
+.banner{
+    background-image: url(../img/HOME/ABOUT/bg4.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 300px;
+    z-index: 1;
+    background-size: cover;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+a{
+    transition: all .5s;
+    color: #fff;
+}
+.banner__text{
+    position: absolute;
+    top: 125px;
+    left: 340px;
+}
+.banner__text li{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.8;
+}
+.banner__text li a{
+    opacity: 0.8;
+    font-weight: 500;
+}
+.banner__text li a:hover{
+    opacity: 1;
+}
+.banner__text li i{
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 2px;
+
+}
+.tilte-big{
+    font-size: 44px;
+    line-height: 55px;
+    font-weight: 600;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.left-wthree-img-video img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* WELCOME  */
+.welcome-about{
+    background: #f8f9ff;
+}
+.welcome .item__about{
+    padding: 40px 30px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+.welcome .item__about .fa-face-smile{
+    background: rgb(10 191 83 / 10%);
+    color: #0abf53;
+
+}
+.welcome .item__about .fa-graduation-cap{
+    background: rgb(255 201 73 / 22%);
+    color: #ffc947;
+
+}
+.welcome .item__about .fa-users{
+    background: rgb(255 79 129 / 15%);
+    color: #ff4f81;
+
+}
+h5 , p{
+    margin: 0;
+}
+.welcome .item__about h5 a{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #060606;
+    transition: all .5s;
+    margin: 25px 0 15px 0;
+    display: inline-block;
+}
+.welcome .item__about h5 a:hover{
+    color: #ff6e65;
+}
+.welcome .item__about p{
+    line-height: 28px;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+/* INTRUCTIORS */
+.title-about h3{
+    font-size: 40px;
+    
+}
+.title-about span{
+    font-size: 30px;
+}
+
+/* JOIN */
+
+.join li i{
+    color: #ff6e65;
+    margin-right: 5px;
+
+}
+.join img{
+    border-radius: 8px;
+}
+header .nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 999 !important;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    height: 70px;
+    background: #fff;
+    position: fixed;
+}
+.fixed-top{
+    position: sticky;
+}

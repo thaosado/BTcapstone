@@ -22,7 +22,22 @@ header{
     background: #0d369f;
     padding: 14px 15px;
     font-size: 15px;
-
+    
+}
+header .nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 999 !important;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    height: 70px;
+    background: #fff;
+    position: fixed;
+}
+.fixed-top{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -750,6 +765,12 @@ ul {
     color: #b7b7b7;
 }
 /* NUMBER  */
+.number__item{
+    border-right: 1px solid #eee;
+}
+.number__0 {
+    border-right: none;
+}
 .number .title p{
     font-size: 15px;
 

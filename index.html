@@ -35,7 +35,7 @@
   </head>
   <body id="mybody">
     <!-- HEADER  -->
-    <header>
+    
       <div class="top-header">
       <div
         class="header__top d-flex justify-content-between align-items-center container-fluid"
@@ -67,6 +67,7 @@
         </div>
       </div>
     </div>
+    <header>
       <div id="site-header" class="header__bot fixed-top">
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg stroke">
@@ -677,26 +678,26 @@
         <div class="number__content">
           <div class="row align-items-center">
             <div class="col-lg-3 col-sm-6">
-              <div>
+              <div class="number__item">
                 <h4 class="counter">6,300</h4>
               <p>LEARNERS & COUNTING</p>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4">
-              <div>
+              <div class="number__item" >
               <h4 class="counter">638</h4>
-              <p>TOTAL COURSES</p>
-            </div>
-            </div>
+              <p>TOTAL COURSES</p></div>
+            </div>      
             <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <div class="number__item">
               <h4 class="counter">7,600</h4>
-              <p>SUCCESSFUL STUDENTS</p>
+              <p>SUCCESSFUL STUDENTS</p></div>
             </div>
             <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4">
+              <div class="number__item number__0">
               <h4 class="counter">36</h4>
-              <p>LANGUAGES</p>
-            </div>
-          </div>
+              <p>LANGUAGES</p></div>
+            </div>        
         </div>
       </div>
     </section>
@@ -1034,6 +1035,19 @@
         document.getElementById('mybody').classList.toggle('dark')
       }
     </script>
-  
+  <!-- HEADER  -->
+  <script>
+        
+    $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+</script>
   </body>
 </html>
