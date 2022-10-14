@@ -48,7 +48,14 @@ header .nav-fixed {
     left: 0;
     right: 0;
 }
-
+.navbar-nav.ml-lg-auto{
+    text-align: center;
+    line-height: 40px;
+}
+.search-right{
+    justify-content: center;
+    margin-bottom: 10px;
+}
 
 .header__top i {
     color: white;
