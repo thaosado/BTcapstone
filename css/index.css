@@ -9,6 +9,9 @@
 header{
     background: #fff;
 }
+.dark .header__bot{
+    background: #161c2d;
+}
 @media only screen and (max-width:991px) {
     .top-header{
         display: none;
@@ -18,11 +21,17 @@ header{
         right: 50px;
         top: 27px;}
 }
+
 .top-header {
     background: #0d369f;
     padding: 14px 15px;
     font-size: 15px;
-    
+}
+.dark .top-header{
+    background: #4867b0;
+}
+.dark .mode-container{
+    color: #4867b0;
 }
 header .nav-fixed {
     padding: 0px;
@@ -163,9 +172,7 @@ header .nav-fixed {
     color: #0d369f;
     z-index: 1;
 }
-.dark .header__bot{
-    background-color: #060606;
-}
+
 .dark .navbar-toggler{
     background: #4867b0;
 }
@@ -418,6 +425,7 @@ img{
     max-height: 50px;
     overflow: hidden;
     margin: 0;
+    position: absolute;
 }
 #banner__carousel .carousel-indicators li{
     height: 10px;
@@ -433,7 +441,12 @@ img{
 }
 #banner__carousel .carousel-indicators{
     display: inline-block;
-    transform: translate(9000% , -180%);
+    right: 0;
+    left: 97%;
+    bottom: 50px;
+}
+.banner{
+    position: relative;
 }
 .carousel-indicators .active{
     background-color: #ff6e65;
@@ -466,8 +479,11 @@ ol{
     .banner__bot .box a{
         font-size: 25px;
     }
-    
 }
+.carousel-indicators{
+    position: relative;
+}
+
 .banner__bot .box a:hover{
     color: #060606;
 }
@@ -503,11 +519,16 @@ ol{
     color: #0d369f;
     border-radius: 50%;
 }
-.welcome .text h5{
+.welcome .text h5 {
     font-size: 24px;
     line-height: 34px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
+}
+.welcome .text a{
+    text-decoration: none;
+    color: #060606;
+    
 }
 .welcome .text h5:hover{
     color: #ff6e65;
@@ -953,6 +974,29 @@ ul {
     background: #fff;
     box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
 }
+.dark .top-sub{
+    background: #161c2d;
+}
+.dark footer .title-head{
+    color: #fdfffc;   
+}
+.dark .form-control{
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.dark .form-control:focus{
+    background: transparent;
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgb(46 202 139 / 25%);
+}
+.dark .main-midd-2 form button{
+    background: #4867b0;
+    color: #fff;
+}
+
+.topsub-form{
+    background: transparent;
+}
 footer .title-head{
     font-size: 35px;
     line-height: 40px;
@@ -1123,4 +1167,7 @@ footer .title-head{
 .cd-top--is-visible{
     visibility: visible;
     opacity: 1;
+}
+.dark .backToTop i{
+    background: #4867b0;
 }
