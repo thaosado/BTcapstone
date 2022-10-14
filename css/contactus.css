@@ -1,0 +1,45 @@
+.questions-right .contact-input{
+    width: 100%;
+    color: #060606;
+    background: #f9f9f9;
+    font-size: 15px;
+    padding: 14px;
+    border: 1px solid #eee;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+.questions-right .form-input textarea{
+    width: 100%;
+    color: #060606;
+    background: #f9f9f9;
+    font-size: 15px;
+    padding: 14px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 0 0 20px 0;
+    height: 120px;
+}
+.contact-icon{
+    color: #ff6e65;
+    font-size: 20px;
+}
+.contact-text h6{
+    font-weight: bold;
+}
+.questions-right .btn-style-secondary{
+    background: #ff6e65;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+.questions-right .btn-style-secondary:hover{
+    background: #0d369f;
+}
+.contact-bot .title{
+    max-width: 700px;
+}
+.contact-bot .title h3{
+    font-size: 40px;
+}
+.contact-bot .title span{
+    font-size: 40px;
+}
