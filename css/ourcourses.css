@@ -1,0 +1,40 @@
+.our-courses .pick{
+    background: #fff;
+}
+.dark .our-courses .pick{
+    background: #161c2d;
+}
+.our-courses .title h3  span{
+    font-size: 36px;
+}
+.our-courses .pagination-style a{
+    display: inline-block;
+    color: #060606;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.our-courses .fa-angles-left{
+    cursor: not-allowed;
+    color: #c3c2c2;
+    font-size: 12px;
+}
+.our-courses .fa-angles-right{
+    font-size: 12px;
+}
+.our-courses .pagination-style a:hover{
+    background: #ff6e65;
+    color: #fff;
+}
+.our-courses .pagination-style .active{
+    background: #ff6e65;
+    color: #fff;
+}
+.dark .our-courses .pagination-style a{
+    color: #fff;
+}
